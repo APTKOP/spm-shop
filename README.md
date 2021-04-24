@@ -18,10 +18,17 @@ CREATE TABLE `u1093406_aptkop`.`tovar` ( `id` INT(255) NOT NULL AUTO_INCREMENT ,
 4. Готово
 
 # Добавление товара в дб:
-1. Выполните sql запрос: "INSERT INTO honey (num, name, cost) VALUES (a, 'b', c)" где
+1. Выполните sql запрос: 
+```sql
+INSERT INTO honey (num, name, cost) VALUES (a, 'b', c)
+```
+где
 a = айди товара
 b = имя товара
 c = цена товара
 
-Добавление товара на сайт:
+# Добавление товара на сайт:
 Как это сделать я указал в файле `index.php`
+
+# Внимание
+Соблюдайте наличие '' и их отсутствие.
