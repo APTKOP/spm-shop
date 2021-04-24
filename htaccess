@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{QUERY_STRING} ^p=(\d+)/
+RewriteRule ^(.*) /$1?p=%1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+
+
+ErrorDocument 404 /404.php
