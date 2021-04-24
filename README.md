@@ -11,8 +11,9 @@
 ```sql
 CREATE TABLE `u1093406_aptkop`.`honey` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` TEXT NOT NULL , `nick` TEXT NOT NULL , `tovar` INT(255) NOT NULL , `name` TEXT NOT NULL , `statuss` INT(255) NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;'
 ```
-```sql
-3. Создайте таблицу tovar: 'CREATE TABLE `u1093406_aptkop`.`tovar` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` INT(255) NOT NULL , `name` TEXT NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+3. Создайте таблицу tovar:
+``sql
+CREATE TABLE `u1093406_aptkop`.`tovar` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` INT(255) NOT NULL , `name` TEXT NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 ```
 4. Готово
 
