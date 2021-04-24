@@ -7,9 +7,10 @@
 
 connection.php:
 1. Создайте базу данных
-2. Создайте таблицу honey: 'CREATE TABLE `u1093406_aptkop`.`honey` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` TEXT NOT NULL , `nick` TEXT NOT NULL , `tovar` INT(255) NOT NULL , `name` TEXT NOT NULL , `statuss` INT(255) NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;'
-3. Создайте таблицу tovar: 'CREATE TABLE `u1093406_aptkop`.`tovar` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` INT(255) NOT NULL , `name` TEXT NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;'
-4. Готово
+2. Создайте таблицу honey:
+```CREATE TABLE `u1093406_aptkop`.`honey` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` TEXT NOT NULL , `nick` TEXT NOT NULL , `tovar` INT(255) NOT NULL , `name` TEXT NOT NULL , `statuss` INT(255) NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;'
+4. Создайте таблицу tovar: 'CREATE TABLE `u1093406_aptkop`.`tovar` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `num` INT(255) NOT NULL , `name` TEXT NOT NULL , `cost` INT(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;```
+5. Готово
 
 Добавление товара в дб:
 1. Выполните sql запрос: "INSERT INTO honey (num, name, cost) VALUES (a, 'b', c)" где
